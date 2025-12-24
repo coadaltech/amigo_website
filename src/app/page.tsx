@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
+import DataDeletionForm from "@/components/DataDeletionForm";
 import PrivacyPolicy from "@/components/PrivacyPolicy";
 import TermsOfService from "@/components/TermsOfService";
 import Footer from "@/components/Footer";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Features />
       <HowItWorks />
+      <DataDeletionForm />
       <PrivacyPolicy />
       <TermsOfService />
       <Footer />

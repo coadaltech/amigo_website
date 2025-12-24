@@ -17,6 +17,7 @@ const Footer = () => {
           </div>
           
           <div className="flex space-x-6 text-sm text-gray-500 font-medium">
+            <a href="#delete-data" className="hover:text-red-600 transition-colors">Delete My Data</a>
             <a href="#privacy" className="hover:text-blue-600 transition-colors">Privacy Policy</a>
             <a href="#terms" className="hover:text-blue-600 transition-colors">Terms of Service</a>
             <a href="mailto:support@amigoapp.com" className="hover:text-blue-600 transition-colors">Support</a>
