@@ -37,6 +37,16 @@ const PrivacyPolicy = () => {
             {/* Main Content */}
             <div className="md:w-2/3 p-12 lg:p-16 overflow-y-auto max-h-[700px] scrollbar-thin scrollbar-thumb-gray-200">
               <div className="prose prose-blue max-w-none text-gray-600 space-y-8">
+                {/* App & Developer Identity */}
+                <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100 mb-6">
+                  <p className="text-gray-700 mb-2">
+                    This Privacy Policy applies to the <strong>Amigo Chats</strong> mobile application operated by <strong>Amigo Chats</strong>.
+                  </p>
+                  <p className="text-gray-700">
+                    Website: <a href="https://amigochats.com" className="text-blue-600 font-bold hover:underline">https://amigochats.com</a>
+                  </p>
+                </div>
+
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                     <span className="w-8 h-8 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mr-3 text-sm">01</span>
@@ -53,7 +63,7 @@ const PrivacyPolicy = () => {
                     Messaging Privacy
                   </h3>
                   <p>
-                    Amigo is built on the principle of zero-knowledge. Your messages are encrypted on your device and can only be decrypted by the intended recipient. We never have access to the content of your communications.
+                    Amigo Chats is built on the principle of privacy. Your messages are encrypted on your device and can only be decrypted by the intended recipient. Messages are encrypted and designed so that only intended recipients can read them.
                   </p>
                 </div>
 
@@ -77,10 +87,70 @@ const PrivacyPolicy = () => {
                   </p>
                 </div>
 
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span className="w-8 h-8 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mr-3 text-sm">05</span>
+                    Data Retention Policy
+                  </h3>
+                  <p>
+                    We retain personal data only for as long as necessary to provide our services, comply with legal obligations, or resolve disputes. When data is no longer required, it is securely deleted.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span className="w-8 h-8 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mr-3 text-sm">06</span>
+                    Permissions & Usage Disclosure
+                  </h3>
+                  <p>
+                    The app may request access to your camera and storage to allow you to upload profile photos and share media. Contacts are accessed only if you choose to sync them. Notifications are used to alert you of new messages and important updates.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span className="w-8 h-8 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mr-3 text-sm">07</span>
+                    User Rights & Data Deletion
+                  </h3>
+                  <p className="mb-3">
+                    You can update your profile information within the app.
+                  </p>
+                  <p>
+                    You may request permanent deletion of your account and associated data by contacting us at <a href="mailto:unetwork62@gmail.com" className="text-blue-600 font-bold hover:underline">unetwork62@gmail.com</a> or by phone at <a href="tel:+15702633896" className="text-blue-600 font-bold hover:underline">+15702633896</a>.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span className="w-8 h-8 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mr-3 text-sm">08</span>
+                    Children&apos;s Privacy
+                  </h3>
+                  <p>
+                    Amigo Chats is not intended for children under the age of 13. We do not knowingly collect personal data from children.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span className="w-8 h-8 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mr-3 text-sm">09</span>
+                    Policy Updates
+                  </h3>
+                  <p>
+                    We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date.
+                  </p>
+                </div>
+
                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
                   <h4 className="text-blue-900 font-bold mb-2">Have questions?</h4>
                   <p className="text-sm text-blue-800 mb-4">Our privacy team is here to help you understand your rights.</p>
-                  <a href="mailto:privacy@amigoapp.com" className="text-blue-600 font-bold hover:underline">privacy@amigoapp.com</a>
+                  <div className="space-y-2">
+                    <p>
+                      <a href="mailto:unetwork62@gmail.com" className="text-blue-600 font-bold hover:underline">unetwork62@gmail.com</a>
+                    </p>
+                    <p>
+                      <a href="tel:+15702633896" className="text-blue-600 font-bold hover:underline">+15702633896</a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

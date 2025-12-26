@@ -20,7 +20,7 @@ const Footer = () => {
             <a href="#delete-data" className="hover:text-red-600 transition-colors">Delete My Data</a>
             <a href="#privacy" className="hover:text-blue-600 transition-colors">Privacy Policy</a>
             <a href="#terms" className="hover:text-blue-600 transition-colors">Terms of Service</a>
-            <a href="mailto:support@amigoapp.com" className="hover:text-blue-600 transition-colors">Support</a>
+            <a href="mailto:unetwork62@gmail.com" className="hover:text-blue-600 transition-colors">Support</a>
           </div>
         </div>
         
